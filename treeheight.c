@@ -25,7 +25,7 @@ void construct()
     root->rht = create();
     root->rht->info = 30;
     root->lft->lft = create();
-    root->lft->lft->info = 40;
+    root->lft->info = 40;
 }
 
 void display(struct node *root)
